@@ -5,14 +5,13 @@
 # 
 # Using notebook due to BQ perimeter limitation on projects.
 
-# In[298]:
+# In[299]:
 
 
 import pandas as pd
 import numpy as np
 import pyrds
 from pyrds.data import gbq_query
-import json
 
 PROJECT = 'de-prod-warehouse-evdz5h3o'
 CORE_PROJECT = "dsr-core-proj-rcjtxz9f"
